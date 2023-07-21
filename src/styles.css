@@ -1,0 +1,47 @@
+.container {
+  border: 1px solid rgb(190, 22, 151);
+  max-width: 700px;
+  padding: 20px 50px 50px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  margin: 10px;
+}
+h1 {
+  text-size: 40px;
+  color: gray;
+  margin-top: 10px;
+  color: rgb(216, 114, 172);
+}
+#list-features {
+  color: rgb(176, 176, 176);
+  list-style: none;
+}
+.active {
+  text-decoration: none;
+  top: -30px;
+  cursor: default;
+}
+.active :hover {
+  text-decoration: none;
+}
+
+#temperature {
+  font-size: 39px;
+}
+li::first-letter {
+  text-transform: capitalize;
+}
+.forecast-weather {
+  margin-top: 20px;
+  text-align: center;
+}
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.5;
+}
+.weather-forecast-temperatures {
+  font-size: 13px;
+}
+.weather-forecast-temperature-min {
+  opacity: 0.4;
+}
